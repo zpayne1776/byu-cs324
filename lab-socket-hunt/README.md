@@ -837,10 +837,10 @@ might be initiated:
  - houston:32400
  - hongkong:32400
  - lasvegas:32400
- - alabama:32400
+ - carolina:32400
  - alaska:32400
  - arizona:32400
- - colorado:32400
+ - hawaii:32400
 
 Note that communicating with any server should result the same behavior.  But
 for the purposes of load balancing, please run the following commands from one
