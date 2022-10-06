@@ -842,17 +842,14 @@ might be initiated:
  - arizona:32400
  - hawaii:32400
 
-Note that communicating with any server should result the same behavior.  But
-for the purposes of load balancing, please run the following commands from one
-of the CS lab machines to select the *primary* machine that you should use:
+Note that communicating with any server should result the same behavior.
+However, to balance the load and to avoid servers that might be down for one
+reason or another, we have created the following script, which will show
+both a status of servers the *primary* machine that *you* should use:
 
-```bash
-$ server=(canada cambodia belgium australia atlanta houston hongkong lasvegas alabama alaska arizona colorado)
-$ val=$(( 0x`echo $USER | sha1sum | cut -c4` % 12))
-$ echo ${server[$val]}
 ```
-
-This effectively selects a server based on your username.
+$ ./server_status.py
+```
 
 
 # Automated Testing
