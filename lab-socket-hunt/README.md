@@ -286,10 +286,31 @@ The following is an explanation of each field:
    order, is a nonce.  The value of this nonce, plus one, should be returned in
    every communication back to the server.
 
-Store the treasure chunk and the nonce (which can be extracted using the hints
-in the [message formatting](#message-formatting) section).  You will be adding
-more chunks to the treasure with each follow-up request, until you have
-received the whole thing.
+Extract the chunk length, the chunk, treasure chunk, the op-code, the op-param,
+and the nonce using the hints in the [message formatting](#message-formatting)
+section), storing them in variables of the appropriate types, so you can work
+with them.  Print them out to verify that you have extracted them properly, and
+pay attention to endian-ness.  For example, if you receive the nonce
+0x12345678, then printing out the value of the variable in which you have
+stored the nonce, e.g., with:
+
+```
+printf("%x", nonce);
+```
+
+should result in the following output:
+
+```
+12345678
+```
+
+Remember to add a null byte after the treasure chunk, or `printf()` will not
+know how to treat it properly.  Also, the op-param has no use for level 0, and
+the value might actually be 0.  This means that endian-ness is hard to check at
+this point.  But you can check it in future levels.
+
+You will be sending the nonce (well, a variant of it) back to the server, in
+exchange for additional chunks, until you have received the whole treasure.
 
 
 ### Follow-Up Request
