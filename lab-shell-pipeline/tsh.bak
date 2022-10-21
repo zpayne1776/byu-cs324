@@ -116,100 +116,45 @@ void eval(char *cmdline)
 
 	parseline(cmdline, myArgs);
 	int numCommands = parseargs(myArgs, commands, inRedirect, outRedirect);
-	//if (!builtin_cmd(myArgs)) {
-	//	pid_t pid = fork();
-	//	
-	//	if (pid > 0) {
-	//		setpgid(pid, pid);
-	//		wait(wstatus);
-	//	} else {
-	//		if (inRedirect[0] != -1){
-	//			FILE *f = fopen(myArgs[inRedirect[0]], "r");
-	//			dup2(fileno(f), 0);
-	//			fclose(f);
-	//		}	
-	//
-	//		if (outRedirect[0] != -1) {
-	//			FILE *f = fopen(myArgs[outRedirect[0]], "w");
-	//			dup2(fileno(f), 1);
-	//			fclose(f);
-	//		}
-	//
-	//		//int didItWork =
-	//		execve(myArgs[commands[0]], &myArgs[commands[0]], environ);
-	//
-	//		//printf("%s %i", "The Execve Return variable is: ", didItWork);
-	//	}
-	//}	
-
-
-
-	
 	if (!builtin_cmd(myArgs)) {
-	pid_t firstChildPID;
-	int lastPipe = NULL;
-	int fileHandles[2];
-	fileHandles[0] = NULL;
-	fileHandles[1] = NULL;
-	
-		for(int i = 0; i < numCommands; i++) {
-			if ((i+1) != numCommands) {
-				pipe(fileHandles);
+		pid_t pid = fork();
+		if (pid > 0) {
+			setpgid(pid, pid);
+			wait(wstatus);
+		} else {
+			if (inRedirect[0] != -1){
+				FILE *f = fopen(myArgs[inRedirect[0]], "r");
+				dup2(fileno(f), 0);
+				fclose(f);
+			}	
+
+			if (outRedirect[0] != -1) {
+				FILE *f = fopen(myArgs[outRedirect[0]], "w");
+				dup2(fileno(f), 1);
+				fclose(f);
 			}
-	
-			pid_t pid = fork();
-			
-			if (pid == -1) {
-               			perror("fork");
-               			exit(EXIT_FAILURE);
-           		}
 
-			if (pid > 0) {
-				if (i == 0) {
-					firstChildPID = pid;
-				}
-				setpgid(pid, firstChildPID);
-				close(fileHandles[0]);
-				close(fileHandles[1]);
-			} else {
-				if (lastPipe != NULL) {
-					dup2(lastPipe, 0);
-					close(lastPipe);
-				}
-				
-				if (fileHandles[0] != NULL) {
-					lastPipe = fileHandles[0];
-					close(fileHandles[0]);
-				}
+			//int didItWork =
+			execve(myArgs[commands[0]], &myArgs[commands[0]], environ);
 
-				if (fileHandles[1] != NULL) {
-					dup2(fileHandles[1], 1);
-					close(fileHandles[1]);
-				}
-
-				if (inRedirect[i] != -1){
-        	                        FILE *f = fopen(myArgs[inRedirect[i]], "r");
-	                                dup2(fileno(f), 0);
-                                	fclose(f);
-                        	}
-
-                        	if (outRedirect[i] != -1) {
-                                	FILE *f = fopen(myArgs[outRedirect[i]], "w");
-	                                dup2(fileno(f), 1);
-        	                        fclose(f);
-				}
-
-				execve(myArgs[commands[i]], &myArgs[commands[i]], environ);
-			}
-	
+			//printf("%s %i", "The Execve Return variable is: ", didItWork);
 		}
-	
-	
-	
-	
-	
-	
-	}
+	}	
+
+
+
+	//
+	//if (!builtin_cmd(myArgs)) {
+	//	for(int i = 0; i < commands.length(); i++) {
+	//		
+	//	}
+	//
+	//
+	//
+	//
+	//
+	//
+	//}
 
 
 	return;
