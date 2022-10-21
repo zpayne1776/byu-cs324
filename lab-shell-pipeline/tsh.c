@@ -63,9 +63,9 @@ int main(int argc, char **argv)
         case 'p':             /* don't print a prompt */
             emit_prompt = 0;  /* handy for automatic testing */
 	    break;
-	default:
+	    default:
             usage();
-	}
+	    }
     }
 
     /* Execute the shell's read/eval loop */
@@ -145,74 +145,70 @@ void eval(char *cmdline)
 
 
 	
-	if (!builtin_cmd(myArgs)) {
-	pid_t firstChildPID;
-	int lastPipe = NULL;
-	int fileHandles[2];
-	fileHandles[0] = NULL;
-	fileHandles[1] = NULL;
-	
-		for(int i = 0; i < numCommands; i++) {
-			if ((i+1) != numCommands) {
-				pipe(fileHandles);
-			}
-	
-			pid_t pid = fork();
-			
-			if (pid == -1) {
-               			perror("fork");
-               			exit(EXIT_FAILURE);
-           		}
+	if (numCommands != 0 && !builtin_cmd(myArgs)) {
+        pid_t firstChildPID;
+        int lastPipe = -1;
+        int fileHandles[2];
+        fileHandles[0] = -1;
+        fileHandles[1] = -1;
 
-			if (pid > 0) {
-				if (i == 0) {
-					firstChildPID = pid;
-				}
-				setpgid(pid, firstChildPID);
-				close(fileHandles[0]);
-				close(fileHandles[1]);
-			} else {
-				if (lastPipe != NULL) {
-					dup2(lastPipe, 0);
-					close(lastPipe);
-				}
-				
-				if (fileHandles[0] != NULL) {
-					lastPipe = fileHandles[0];
-					close(fileHandles[0]);
-				}
+        for (int i = 0; i < numCommands; i++) {
+            if ((i + 1) != numCommands) {
+                pipe(fileHandles);
+            }
 
-				if (fileHandles[1] != NULL) {
-					dup2(fileHandles[1], 1);
-					close(fileHandles[1]);
-				}
+            pid_t pid = fork();
 
-				if (inRedirect[i] != -1){
-        	                        FILE *f = fopen(myArgs[inRedirect[i]], "r");
-	                                dup2(fileno(f), 0);
-                                	fclose(f);
-                        	}
+            if (pid == -1) {
+                perror("fork");
+                exit(EXIT_FAILURE);
+            }
 
-                        	if (outRedirect[i] != -1) {
-                                	FILE *f = fopen(myArgs[outRedirect[i]], "w");
-	                                dup2(fileno(f), 1);
-        	                        fclose(f);
-				}
+            if (pid > 0) {
+                if (i == 0) {
+                    firstChildPID = pid;
+                }
+                setpgid(pid, firstChildPID);
 
-				execve(myArgs[commands[i]], &myArgs[commands[i]], environ);
-			}
-	
-		}
-	
-	
-	
-	
-	
-	
+                if (lastPipe != -1) {
+                    close(lastPipe);
+                }
+
+                lastPipe = fileHandles[0];
+                close(fileHandles[1]);
+            } else {
+                if (lastPipe != -1) {
+                    dup2(lastPipe, 0);
+                    close(lastPipe);
+                }
+
+                if ((i + 1) != numCommands) {
+                    dup2(fileHandles[1], 1);
+                    close(fileHandles[1]);
+                }
+
+                if (inRedirect[i] != -1) {
+                    FILE *f = fopen(myArgs[inRedirect[i]], "r");
+                    dup2(fileno(f), 0);
+                    fclose(f);
+                }
+
+                if (outRedirect[i] != -1) {
+                    FILE *f = fopen(myArgs[outRedirect[i]], "w");
+                    dup2(fileno(f), 1);
+                    fclose(f);
+                }
+
+                execve(myArgs[commands[i]], &myArgs[commands[i]], environ);
+                exit(1776);
+            }
+        }
+        for (int i = 0; i < numCommands; i++) {
+            wait(NULL);
+        }
 	}
-
-
-	return;
+	//printf("%s", "This is the end of EVAL");
+	fflush(stdout);
 }
 
 /* 
@@ -341,9 +337,14 @@ int builtin_cmd(char **argv)
 {
     if (strcmp(argv[0], "quit") == 0) {
 	    exit(0);
-    } else {
+    }
+//    else if (strcmp(argv[0], "") == 0) {
+//        return 1;
+//    }
+    else {
         return 0;    /* not a builtin command */
     }
+
 }
 
 /***********************
