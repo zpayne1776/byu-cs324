@@ -1,0 +1,3 @@
+/users/guest/z/zeus1776/newCS324/classRepo/byu-cs324/cmake-build-debug/CMakeFiles/byu_cs324.dir
+/users/guest/z/zeus1776/newCS324/classRepo/byu-cs324/cmake-build-debug/CMakeFiles/edit_cache.dir
+/users/guest/z/zeus1776/newCS324/classRepo/byu-cs324/cmake-build-debug/CMakeFiles/rebuild_cache.dir

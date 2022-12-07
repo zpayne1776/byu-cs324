@@ -1,0 +1,4 @@
+/users/guest/z/zeus1776/.cache/JetBrains/RemoteDev/dist/68305831d57ea_CLion-2022.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/users/guest/z/zeus1776/.cache/JetBrains/RemoteDev/dist/68305831d57ea_CLion-2022.2.4/bin/ninja/linux/ninja -G Ninja -S /users/guest/z/zeus1776/newCS324/classRepo/byu-cs324 -B /users/guest/z/zeus1776/newCS324/classRepo/byu-cs324/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /users/guest/z/zeus1776/newCS324/classRepo/byu-cs324/cmake-build-debug
