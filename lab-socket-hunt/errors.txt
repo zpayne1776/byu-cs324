@@ -1,0 +1,58 @@
+treasure_hunter.c: In function ‘main’:
+treasure_hunter.c:189:19: warning: passing argument 1 of ‘connectNewPort’ makes pointer from integer without a cast [-Wint-conversion]
+  189 |    connectNewPort(newRemotePort);
+      |                   ^~~~~~~~~~~~~
+      |                   |
+      |                   unsigned int
+treasure_hunter.c:40:36: note: expected ‘unsigned char *’ but argument is of type ‘unsigned int’
+   40 | void connectNewPort(unsigned char *port);
+      |                     ~~~~~~~~~~~~~~~^~~~
+treasure_hunter.c: At top level:
+treasure_hunter.c:229:6: error: conflicting types for ‘connectNewPort’
+  229 | void connectNewPort(unsigned short port) {
+      |      ^~~~~~~~~~~~~~
+treasure_hunter.c:40:6: note: previous declaration of ‘connectNewPort’ was here
+   40 | void connectNewPort(unsigned char *port);
+      |      ^~~~~~~~~~~~~~
+In file included from /usr/include/arpa/inet.h:22,
+                 from treasure_hunter.c:10:
+treasure_hunter.c: In function ‘bindNewPort’:
+treasure_hunter.c:265:31: warning: passing argument 1 of ‘__bswap_16’ makes integer from pointer without a cast [-Wint-conversion]
+  265 |   ipv4_local.sin_port = htons(localPort);
+      |                               ^~~~~~~~~
+      |                               |
+      |                               unsigned char *
+In file included from /usr/include/endian.h:35,
+                 from /usr/include/x86_64-linux-gnu/sys/types.h:176,
+                 from /usr/include/stdlib.h:394,
+                 from treasure_hunter.c:7:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:34:24: note: expected ‘__uint16_t’ {aka ‘short unsigned int’} but argument is of type ‘unsigned char *’
+   34 | __bswap_16 (__uint16_t __bsx)
+      |             ~~~~~~~~~~~^~~~~
+In file included from /usr/include/arpa/inet.h:22,
+                 from treasure_hunter.c:10:
+treasure_hunter.c:272:32: warning: passing argument 1 of ‘__bswap_16’ makes integer from pointer without a cast [-Wint-conversion]
+  272 |   ipv6_local.sin6_port = htons(localPort);
+      |                                ^~~~~~~~~
+      |                                |
+      |                                unsigned char *
+In file included from /usr/include/endian.h:35,
+                 from /usr/include/x86_64-linux-gnu/sys/types.h:176,
+                 from /usr/include/stdlib.h:394,
+                 from treasure_hunter.c:7:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:34:24: note: expected ‘__uint16_t’ {aka ‘short unsigned int’} but argument is of type ‘unsigned char *’
+   34 | __bswap_16 (__uint16_t __bsx)
+      |             ~~~~~~~~~~~^~~~~
+treasure_hunter.c:280:22: warning: pointer targets in passing argument 1 of ‘atoi’ differ in signedness [-Wpointer-sign]
+  280 |  connectNewPort(atoi(port));
+      |                      ^~~~
+      |                      |
+      |                      unsigned char *
+In file included from /usr/include/features.h:461,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:27,
+                 from treasure_hunter.c:6:
+/usr/include/stdlib.h:361:1: note: expected ‘const char *’ but argument is of type ‘unsigned char *’
+  361 | __NTH (atoi (const char *__nptr))
+      | ^~~~~
+make: *** [Makefile:8: treasure_hunter] Error 1

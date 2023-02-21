@@ -1,0 +1,1281 @@
+opCode: 1
+	opParam [8B]
+	opParam [E1]
+		nonce [6D]
+		nonce [A3]
+		nonce [58]
+		nonce [98]
+entered connectnewport
+Port num: 35809 | Port string: 35809
+Leaving connectnewport
+Nonce: 1839421592
+Nonce plus one: 1839421593
+
+00: 6D A3 58 99               m . X .        
+newBuffer [h you, my peace òuhƒ@]
+
+00: 10 68 20 79  6F 75 2C 20  . h . y o u , .
+08: 6D 79 20 70  65 61 63 65  m y . p e a c e
+10: 20 02 14 F2  75 68 83 40  . . . . u h . @
+Bottom of Treasure loop
+opCode: 2
+	opParam [14]
+	opParam [F2]
+		nonce [75]
+		nonce [68]
+		nonce [83]
+		nonce [40]
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 5362
+My current socket (within Bind) is :3
+entered connectnewport
+Port num: 32400 | Port string: 32400
+Leaving connectnewport
+Nonce: 1969783616
+Nonce plus one: 1969783617
+
+00: 75 68 83 41               u h . A        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382
+
+00: 00 00 C0 E6               . . . .        
+newBuffer [‚]
+
+00: 82                        .              
+Bottom of Treasure loop
+opCode: 48
+	opParam [FF]
+	opParam [7F]
+		nonce [00]
+		nonce [00]
+		nonce [C0]
+		nonce [E5]
+Nonce: 49381
+Nonce plus one: 49382

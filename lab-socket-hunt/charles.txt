@@ -1,0 +1,640 @@
+192.168.2.28:62673 -> 192.168.2.23:36990
+opCode: 1
+	opParam [A2]
+	opParam [B7]
+		nonce [08]
+		nonce [77]
+		nonce [58]
+		nonce [8C]
+entered connectnewport
+Port num: 47010
+Leaving connectnewport
+Nonce: 142039180
+Nonce plus one: 142039181
+192.168.2.28:62673 -> 192.168.2.23:47010
+
+00: 08 77 58 8D               . w X .        
+newBuffer [ye must presÚ!ßO¥6]
+
+00: 0C 79 65 20  6D 75 73 74  . y e . m u s t
+08: 20 70 72 65  73 01 DA 21  . p r e s . . !
+10: DF 4F A5 36               . O . 6        
+Bottom of Treasure loop
+opCode: 1
+	opParam [DA]
+	opParam [21]
+		nonce [DF]
+		nonce [4F]
+		nonce [A5]
+		nonce [36]
+entered connectnewport
+Port num: 8666
+Leaving connectnewport
+Nonce: -548428490
+Nonce plus one: -548428489
+192.168.2.28:62673 -> 192.168.2.23:8666
+
+00: DF 4F A5 37               . O . 7        
+newBuffer [s forward wµOñã]
+
+00: 0B 73 20 66  6F 72 77 61  . s . f o r w a
+08: 72 64 20 77  04 B5 18 17  r d . w . . . .
+10: 4F F1 E3                  O . .          
+Bottom of Treasure loop
+opCode: 4
+	opParam [B5]
+	opParam [18]
+		nonce [17]
+		nonce [4F]
+		nonce [F1]
+		nonce [E3]
+Port num: 6325
+Char Port num: 46360
+Nonce: 391115235
+Nonce plus one: 391115236
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::65438 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::6325
+
+00: 17 4F F1 E4               . O . .        
+newBuffer [ith a steadfastnesssvÌ<6]
+
+00: 13 69 74 68  20 61 20 73  . i t h . a . s
+08: 74 65 61 64  66 61 73 74  t e a d f a s t
+10: 6E 65 73 73  02 73 76 18  n e s s . s v .
+18: CC 3C 36                  . < 6          
+Bottom of Treasure loop
+opCode: 2
+	opParam [73]
+	opParam [76]
+		nonce [18]
+		nonce [CC]
+		nonce [3C]
+		nonce [36]
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 30323
+My current socket (within Bind) is :4
+entered connectnewport
+Port num: 6325
+Leaving connectnewport
+Nonce: 416037942
+Nonce plus one: 416037943
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::30323 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::6325
+
+00: 18 CC 3C 37               . . < 7        
+newBuffer [ in Christ,†=ûû]
+
+00: 0B 20 69 6E  20 43 68 72  . . i n . C h r
+08: 69 73 74 2C  01 86 3D FB  i s t , . . = .
+10: FB 00 D7                  . . .          
+Bottom of Treasure loop
+opCode: 1
+	opParam [86]
+	opParam [3D]
+		nonce [FB]
+		nonce [FB]
+		nonce [00]
+		nonce [D7]
+entered connectnewport
+Port num: 15750
+Leaving connectnewport
+Nonce: -67436329
+Nonce plus one: -67436328
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::30323 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::15750
+
+00: FB FB 00 D8               . . . .        
+newBuffer [ having a perfect_$œ{Æå]
+
+00: 11 20 68 61  76 69 6E 67  . . h a v i n g
+08: 20 61 20 70  65 72 66 65  . a . p e r f e
+10: 63 74 01 5F  24 9C 7B C6  c t . _ $ . { .
+18: E5                        .              
+Bottom of Treasure loop
+opCode: 1
+	opParam [5F]
+	opParam [24]
+		nonce [9C]
+		nonce [7B]
+		nonce [C6]
+		nonce [E5]
+entered connectnewport
+Port num: 9311
+Leaving connectnewport
+Nonce: -1669609755
+Nonce plus one: -1669609754
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::30323 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::9311
+
+00: 9C 7B C6 E6               . { . .        
+newBuffer [ brightnessh€ÂËMI]
+
+00: 0B 20 62 72  69 67 68 74  . . b r i g h t
+08: 6E 65 73 73  01 68 80 C2  n e s s . h . .
+10: CB 4D 49                  . M I          
+Bottom of Treasure loop
+opCode: 1
+	opParam [68]
+	opParam [80]
+		nonce [C2]
+		nonce [CB]
+		nonce [4D]
+		nonce [49]
+entered connectnewport
+Port num: 32872
+Leaving connectnewport
+Nonce: -1026863799
+Nonce plus one: -1026863798
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::30323 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::32872
+
+00: C2 CB 4D 4A               . . M J        
+newBuffer [ of hope, a%³yX&]
+
+00: 0B 20 6F 66  20 68 6F 70  . . o f . h o p
+08: 65 2C 20 61  02 25 1B B3  e , . a . % . .
+10: 79 58 26                  y X &          
+Bottom of Treasure loop
+opCode: 2
+	opParam [25]
+	opParam [1B]
+		nonce [B3]
+		nonce [79]
+		nonce [58]
+		nonce [26]
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 6949
+My current socket (within Bind) is :5
+entered connectnewport
+Port num: 32872
+Leaving connectnewport
+Nonce: -1283893210
+Nonce plus one: -1283893209
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::6949 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::32872
+
+00: B3 79 58 27               . y X '        
+newBuffer [nd a love of God and]
+
+00: 14 6E 64 20  61 20 6C 6F  . n d . a . l o
+08: 76 65 20 6F  66 20 47 6F  v e . o f . G o
+10: 64 20 61 6E  64 03 00 04  d . a n d . . .
+18: 00 00 00 00               . . . .        
+Bottom of Treasure loop
+opCode: 3
+	opParam [00]
+	opParam [04]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+Rebinding to 6949
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 6949
+My current socket (within Bind) is :5
+Starting #1 read in Level 3 loop
+ Here's the junk: ::::6949 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::32872
+Current local host is arizona.cs.byu.edu and current local port is 53748
+Current remote host is hawaii.cs.byu.edu and current remote port is 55841
+My current socket is :5
+1 of 4 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET6 - casting sockaddr_storage as sockaddr_in6
+		The Port to be added is 47984
+		Result of summing ports is currently: 47984
+Starting #2 read in Level 3 loop
+ Here's the junk: ::::6949 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::32872
+Current local host is arizona.cs.byu.edu and current local port is 53748
+Current remote host is hawaii.cs.byu.edu and current remote port is 55841
+My current socket is :5
+2 of 4 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET6 - casting sockaddr_storage as sockaddr_in6
+		The Port to be added is 11885
+		Result of summing ports is currently: 59869
+Starting #3 read in Level 3 loop
+ Here's the junk: ::::6949 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::32872
+Current local host is arizona.cs.byu.edu and current local port is 53748
+Current remote host is hawaii.cs.byu.edu and current remote port is 55841
+My current socket is :5
+3 of 4 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET6 - casting sockaddr_storage as sockaddr_in6
+		The Port to be added is 62639
+		Result of summing ports is currently: 122508
+Starting #4 read in Level 3 loop
+ Here's the junk: ::::6949 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::32872
+Current local host is arizona.cs.byu.edu and current local port is 53748
+Current remote host is hawaii.cs.byu.edu and current remote port is 55841
+My current socket is :5
+4 of 4 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET6 - casting sockaddr_storage as sockaddr_in6
+		The Port to be added is 31407
+		Result of summing ports is currently: 153915
+Out of recvfrom loop
+entered connectnewport
+Port num: 32872
+Leaving connectnewport
+Nonce: 153915
+Nonce plus one: 153916
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::6949 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::32872
+
+00: 00 02 59 3C               . . Y <        
+newBuffer [ of all men. W‹îïCÒ]
+
+00: 0E 20 6F 66  20 61 6C 6C  . . o f . a l l
+08: 20 6D 65 6E  2E 20 57 01  . m e n . . W .
+10: 8B EE EF 43  19 D2        . . . C . .    
+Bottom of Treasure loop
+opCode: 1
+	opParam [8B]
+	opParam [EE]
+		nonce [EF]
+		nonce [43]
+		nonce [19]
+		nonce [D2]
+entered connectnewport
+Port num: 61067
+Leaving connectnewport
+Nonce: -280815150
+Nonce plus one: -280815149
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::6949 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::61067
+
+00: EF 43 19 D3               . C . .        
+newBuffer [
+herefore, €„~£x]
+
+00: 0A 68 65 72  65 66 6F 72  . h e r e f o r
+08: 65 2C 20 02  80 84 7E 0D  e , . . . . ~ .
+10: A3 78                     . x            
+Bottom of Treasure loop
+opCode: 2
+	opParam [80]
+	opParam [84]
+		nonce [7E]
+		nonce [0D]
+		nonce [A3]
+		nonce [78]
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 33920
+My current socket (within Bind) is :7
+entered connectnewport
+Port num: 61067
+Leaving connectnewport
+Nonce: 2114823032
+Nonce plus one: 2114823033
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::33920 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::61067
+
+00: 7E 0D A3 79               ~ . . y        
+newBuffer [
+if ye shalh¿Ò&R]
+
+00: 0A 69 66 20  79 65 20 73  . i f . y e . s
+08: 68 61 6C 02  68 BF D2 26  h a l . h . . &
+10: 52 1B                     R .            
+Bottom of Treasure loop
+opCode: 2
+	opParam [68]
+	opParam [BF]
+		nonce [D2]
+		nonce [26]
+		nonce [52]
+		nonce [1B]
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 49000
+My current socket (within Bind) is :8
+entered connectnewport
+Port num: 61067
+Leaving connectnewport
+Nonce: -769240549
+Nonce plus one: -769240548
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::49000 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::61067
+
+00: D2 26 52 1C               . & R .        
+newBuffer [l press forward, fea˜)?</]
+
+00: 14 6C 20 70  72 65 73 73  . l . p r e s s
+08: 20 66 6F 72  77 61 72 64  . f o r w a r d
+10: 2C 20 66 65  61 04 98 29  , . f e a . . )
+18: 19 3F 3C 2F               . ? < /        
+Bottom of Treasure loop
+opCode: 4
+	opParam [98]
+	opParam [29]
+		nonce [19]
+		nonce [3F]
+		nonce [3C]
+		nonce [2F]
+Port num: 10648
+Char Port num: 38953
+Nonce: 423574575
+Nonce plus one: 423574576
+192.168.2.28:14564 -> 192.168.2.23:10648
+
+00: 19 3F 3C 30               . ? < 0        
+newBuffer [sting upon the wordjõŽ£xä]
+
+00: 13 73 74 69  6E 67 20 75  . s t i n g . u
+08: 70 6F 6E 20  74 68 65 20  p o n . t h e .
+10: 77 6F 72 64  01 6A F5 8E  w o r d . j . .
+18: A3 78 E4                  . x .          
+Bottom of Treasure loop
+opCode: 1
+	opParam [6A]
+	opParam [F5]
+		nonce [8E]
+		nonce [A3]
+		nonce [78]
+		nonce [E4]
+entered connectnewport
+Port num: 62826
+Leaving connectnewport
+Nonce: -1901889308
+Nonce plus one: -1901889307
+192.168.2.28:14564 -> 192.168.2.23:62826
+
+00: 8E A3 78 E5               . . x .        
+newBuffer [ of Christ, an]
+
+00: 0E 20 6F 66  20 43 68 72  . . o f . C h r
+08: 69 73 74 2C  20 61 6E 03  i s t , . a n .
+10: 00 01 00 00  00 00        . . . . . .    
+Bottom of Treasure loop
+opCode: 3
+	opParam [00]
+	opParam [01]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+Rebinding to 14564
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 14564
+My current socket (within Bind) is :8
+Starting #1 read in Level 3 loop
+ Here's the junk: 0.0.0.0:14564 -> 192.168.2.23:62826
+Current local host is 0.0.0.0 and current local port is 58424
+Current remote host is hawaii.cs.byu.edu and current remote port is 27381
+My current socket is :8
+1 of 1 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 15157
+		Result of summing ports is currently: 15157
+Out of recvfrom loop
+entered connectnewport
+Port num: 62826
+Leaving connectnewport
+Nonce: 15157
+Nonce plus one: 15158
+192.168.2.28:14564 -> 192.168.2.23:62826
+
+00: 00 00 3B 36               . . ; 6        
+newBuffer [d endure to the e]
+
+00: 11 64 20 65  6E 64 75 72  . d . e n d u r
+08: 65 20 74 6F  20 74 68 65  e . t o . t h e
+10: 20 65 03 00  03 00 00 00  . e . . . . . .
+18: 00                        .              
+Bottom of Treasure loop
+opCode: 3
+	opParam [00]
+	opParam [03]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+Rebinding to 14564
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 14564
+My current socket (within Bind) is :8
+Starting #1 read in Level 3 loop
+ Here's the junk: 0.0.0.0:14564 -> 192.168.2.23:62826
+Current local host is 0.0.0.0 and current local port is 58424
+Current remote host is hawaii.cs.byu.edu and current remote port is 27381
+My current socket is :8
+1 of 3 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 29056
+		Result of summing ports is currently: 29056
+Starting #2 read in Level 3 loop
+ Here's the junk: 0.0.0.0:14564 -> 192.168.2.23:62826
+Current local host is 0.0.0.0 and current local port is 58424
+Current remote host is hawaii.cs.byu.edu and current remote port is 27381
+My current socket is :8
+2 of 3 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 62506
+		Result of summing ports is currently: 91562
+Starting #3 read in Level 3 loop
+ Here's the junk: 0.0.0.0:14564 -> 192.168.2.23:62826
+Current local host is 0.0.0.0 and current local port is 58424
+Current remote host is hawaii.cs.byu.edu and current remote port is 27381
+My current socket is :8
+3 of 3 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 51799
+		Result of summing ports is currently: 143361
+Out of recvfrom loop
+entered connectnewport
+Port num: 62826
+Leaving connectnewport
+Nonce: 143361
+Nonce plus one: 143362
+192.168.2.28:14564 -> 192.168.2.23:62826
+
+00: 00 02 30 02               . . 0 .        
+newBuffer [nd, behold, thus sai]
+
+00: 14 6E 64 2C  20 62 65 68  . n d , . b e h
+08: 6F 6C 64 2C  20 74 68 75  o l d , . t h u
+10: 73 20 73 61  69 03 00 01  s . s a i . . .
+18: 00 00 00 00               . . . .        
+Bottom of Treasure loop
+opCode: 3
+	opParam [00]
+	opParam [01]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+Rebinding to 14564
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 14564
+My current socket (within Bind) is :8
+Starting #1 read in Level 3 loop
+ Here's the junk: 0.0.0.0:14564 -> 192.168.2.23:62826
+Current local host is 0.0.0.0 and current local port is 58424
+Current remote host is hawaii.cs.byu.edu and current remote port is 27381
+My current socket is :8
+1 of 1 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 29557
+		Result of summing ports is currently: 29557
+Out of recvfrom loop
+entered connectnewport
+Port num: 62826
+Leaving connectnewport
+Nonce: 29557
+Nonce plus one: 29558
+192.168.2.28:14564 -> 192.168.2.23:62826
+
+00: 00 00 73 76               . . s v        
+newBuffer [
+th the Fat]
+
+00: 0A 74 68 20  74 68 65 20  . t h . t h e .
+08: 46 61 74 03  00 05 00 00  F a t . . . . .
+10: 00 00                     . .            
+Bottom of Treasure loop
+opCode: 3
+	opParam [00]
+	opParam [05]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+Rebinding to 14564
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 14564
+My current socket (within Bind) is :8
+Starting #1 read in Level 3 loop
+ Here's the junk: 0.0.0.0:14564 -> 192.168.2.23:62826
+Current local host is 0.0.0.0 and current local port is 58424
+Current remote host is hawaii.cs.byu.edu and current remote port is 27381
+My current socket is :8
+1 of 5 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 6092
+		Result of summing ports is currently: 6092
+Starting #2 read in Level 3 loop
+ Here's the junk: 0.0.0.0:14564 -> 192.168.2.23:62826
+Current local host is 0.0.0.0 and current local port is 58424
+Current remote host is hawaii.cs.byu.edu and current remote port is 27381
+My current socket is :8
+2 of 5 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 64253
+		Result of summing ports is currently: 70345
+Starting #3 read in Level 3 loop
+ Here's the junk: 0.0.0.0:14564 -> 192.168.2.23:62826
+Current local host is 0.0.0.0 and current local port is 58424
+Current remote host is hawaii.cs.byu.edu and current remote port is 27381
+My current socket is :8
+3 of 5 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 60771
+		Result of summing ports is currently: 131116
+Starting #4 read in Level 3 loop
+ Here's the junk: 0.0.0.0:14564 -> 192.168.2.23:62826
+Current local host is 0.0.0.0 and current local port is 58424
+Current remote host is hawaii.cs.byu.edu and current remote port is 27381
+My current socket is :8
+4 of 5 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 11984
+		Result of summing ports is currently: 143100
+Starting #5 read in Level 3 loop
+ Here's the junk: 0.0.0.0:14564 -> 192.168.2.23:62826
+Current local host is 0.0.0.0 and current local port is 58424
+Current remote host is hawaii.cs.byu.edu and current remote port is 27381
+My current socket is :8
+5 of 5 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 22735
+		Result of summing ports is currently: 165835
+Out of recvfrom loop
+entered connectnewport
+Port num: 62826
+Leaving connectnewport
+Nonce: 165835
+Nonce plus one: 165836
+192.168.2.28:14564 -> 192.168.2.23:62826
+
+00: 00 02 87 CC               . . . .        
+newBuffer [her: Ye shall¥/Á‹w]
+
+00: 0D 68 65 72  3A 20 59 65  . h e r : . Y e
+08: 20 73 68 61  6C 6C 04 06  . s h a l l . .
+10: A5 2F C1 8B  77           . / . . w      
+Bottom of Treasure loop
+opCode: 4
+	opParam [06]
+	opParam [A5]
+		nonce [2F]
+		nonce [C1]
+		nonce [8B]
+		nonce [77]
+Port num: 42246
+Char Port num: 1701
+Nonce: 801213303
+Nonce plus one: 801213304
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::45221 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::42246
+
+00: 2F C1 8B 78               / . . x        
+newBuffer [ have eternal life.°Zè1Ø]
+
+00: 13 20 68 61  76 65 20 65  . . h a v e . e
+08: 74 65 72 6E  61 6C 20 6C  t e r n a l . l
+10: 69 66 65 2E  01 05 B0 5A  i f e . . . . Z
+18: E8 31 D8                  . 1 .          
+Bottom of Treasure loop
+opCode: 1
+	opParam [05]
+	opParam [B0]
+		nonce [5A]
+		nonce [E8]
+		nonce [31]
+		nonce [D8]
+entered connectnewport
+Port num: 45061
+Leaving connectnewport
+Nonce: 1525166552
+Nonce plus one: 1525166553
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::45221 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::45061
+
+00: 5A E8 31 D9               Z . 1 .        
+newBuffer [ 2 Nephi 31:20‰˜’¦¡M]
+
+00: 0E 20 32 20  4E 65 70 68  . . 2 . N e p h
+08: 69 20 33 31  3A 32 30 02  i . 3 1 : 2 0 .
+10: 89 98 92 A6  A1 4D        . . . . . M    
+Bottom of Treasure loop
+opCode: 2
+	opParam [89]
+	opParam [98]
+		nonce [92]
+		nonce [A6]
+		nonce [A1]
+		nonce [4D]
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 39049
+My current socket (within Bind) is :9
+entered connectnewport
+Port num: 45061
+Leaving connectnewport
+Nonce: -1834573491
+Nonce plus one: -1834573490
+2620:10f:3007:a002:a6bb:6dff:fe81:9168::39049 -> 2620:10f:3007:a002:a6bb:6dff:fe81:90a5::45061
+
+00: 92 A6 A1 4E               . . . N        
+newBuffer []
+
+00: 00                        .              
+Bottom of Treasure loop
+Out of Treasure loop
+Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life. 2 Nephi 31:20

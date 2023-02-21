@@ -1,0 +1,21 @@
+192.168.2.28:5810 -> 192.168.2.23:36990
+opCode: 1
+	opParam [7E]
+	opParam [54]
+		nonce [89]
+		nonce [30]
+		nonce [7D]
+		nonce [96]
+entered connectnewport
+Leaving connectnewport
+Nonce: -1993310826
+Nonce plus one: -1993310825
+192.168.2.28:5810 -> 192.168.2.23:0
+
+00: 89 30 7D 97               . 0 } .        
+newBuffer []
+
+00:                                          
+Bottom of loop
+Out of main loop
+The Lord a

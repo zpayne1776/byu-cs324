@@ -1,0 +1,1760 @@
+192.168.2.28:62129 -> 192.168.2.23:36990
+opCode: 1
+	opParam [86]
+	opParam [8B]
+		nonce [25]
+		nonce [C0]
+		nonce [78]
+		nonce [67]
+entered connectnewport
+Port num: 35718
+Leaving connectnewport
+Nonce: 633370727
+Nonce plus one: 633370728
+192.168.2.28:62129 -> 192.168.2.23:35718
+
+00: 25 C0 78 68               % . x h        
+newBuffer [
+l be restoûó ]ï¸]
+
+00: 0A 6C 20 62  65 20 72 65  . l . b e . r e
+08: 73 74 6F 01  FB F3 A0 5D  s t o . . . . ]
+10: EF B8                     . .            
+Bottom of Treasure loop
+opCode: 1
+	opParam [FB]
+	opParam [F3]
+		nonce [A0]
+		nonce [5D]
+		nonce [EF]
+		nonce [B8]
+entered connectnewport
+Port num: 62459
+Leaving connectnewport
+Nonce: -1604456520
+Nonce plus one: -1604456519
+192.168.2.28:62129 -> 192.168.2.23:62459
+
+00: A0 5D EF B9               . ] . .        
+newBuffer [red to the bod†@V–ó]
+
+00: 0E 72 65 64  20 74 6F 20  . r e d . t o .
+08: 74 68 65 20  62 6F 64 02  t h e . b o d .
+10: 86 40 56 11  96 F3        . @ V . . .    
+Bottom of Treasure loop
+opCode: 2
+	opParam [86]
+	opParam [40]
+		nonce [56]
+		nonce [11]
+		nonce [96]
+		nonce [F3]
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 16518
+My current socket (within Bind) is :4
+entered connectnewport
+Port num: 62459
+Leaving connectnewport
+Nonce: 1443993331
+Nonce plus one: 1443993332
+192.168.2.28:16518 -> 192.168.2.23:62459
+
+00: 56 11 96 F4               V . . .        
+newBuffer [y, and the body to t­‘ZqÞ]
+
+00: 14 79 2C 20  61 6E 64 20  . y , . a n d .
+08: 74 68 65 20  62 6F 64 79  t h e . b o d y
+10: 20 74 6F 20  74 02 15 AD  . t o . t . . .
+18: 91 5A 71 DE               . Z q .        
+Bottom of Treasure loop
+opCode: 2
+	opParam [15]
+	opParam [AD]
+		nonce [91]
+		nonce [5A]
+		nonce [71]
+		nonce [DE]
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 44309
+My current socket (within Bind) is :5
+entered connectnewport
+Port num: 62459
+Leaving connectnewport
+Nonce: -1856343586
+Nonce plus one: -1856343585
+192.168.2.28:44309 -> 192.168.2.23:62459
+
+00: 91 5A 71 DF               . Z q .        
+newBuffer [
+he soul; y)Ÿ¿!‰~]
+
+00: 0A 68 65 20  73 6F 75 6C  . h e . s o u l
+08: 3B 20 79 01  29 9F BF 21  ; . y . ) . . !
+10: 89 7E                     . ~            
+Bottom of Treasure loop
+opCode: 1
+	opParam [29]
+	opParam [9F]
+		nonce [BF]
+		nonce [21]
+		nonce [89]
+		nonce [7E]
+entered connectnewport
+Port num: 40745
+Leaving connectnewport
+Nonce: -1088321154
+Nonce plus one: -1088321153
+192.168.2.28:44309 -> 192.168.2.23:40745
+
+00: BF 21 89 7F               . ! . .        
+newBuffer [ea, and everyÛ«`¾
+#]
+
+00: 0D 65 61 2C  20 61 6E 64  . e a , . a n d
+08: 20 65 76 65  72 79 01 DB  . e v e r y . .
+10: AB 60 BE 0A  23           . ` . . #      
+Bottom of Treasure loop
+opCode: 1
+	opParam [DB]
+	opParam [AB]
+		nonce [60]
+		nonce [BE]
+		nonce [0A]
+		nonce [23]
+entered connectnewport
+Port num: 43995
+Leaving connectnewport
+Nonce: 1623067171
+Nonce plus one: 1623067172
+192.168.2.28:44309 -> 192.168.2.23:43995
+
+00: 60 BE 0A 24               ` . . $        
+newBuffer [ limb and joint sh8b~Ä¾.]
+
+00: 12 20 6C 69  6D 62 20 61  . . l i m b . a
+08: 6E 64 20 6A  6F 69 6E 74  n d . j o i n t
+10: 20 73 68 02  38 62 7E C4  . s h . 8 b ~ .
+18: BE 2E                     . .            
+Bottom of Treasure loop
+opCode: 2
+	opParam [38]
+	opParam [62]
+		nonce [7E]
+		nonce [C4]
+		nonce [BE]
+		nonce [2E]
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 25144
+My current socket (within Bind) is :6
+entered connectnewport
+Port num: 43995
+Leaving connectnewport
+Nonce: 2126822958
+Nonce plus one: 2126822959
+192.168.2.28:25144 -> 192.168.2.23:43995
+
+00: 7E C4 BE 2F               ~ . . /        
+newBuffer [all be restored ßôÉ¬]
+
+00: 10 61 6C 6C  20 62 65 20  . a l l . b e .
+08: 72 65 73 74  6F 72 65 64  r e s t o r e d
+10: 20 02 90 DF  F4 C9 AC 9D  . . . . . . . .
+Bottom of Treasure loop
+opCode: 2
+	opParam [90]
+	opParam [DF]
+		nonce [F4]
+		nonce [C9]
+		nonce [AC]
+		nonce [9D]
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 57232
+My current socket (within Bind) is :7
+entered connectnewport
+Port num: 43995
+Leaving connectnewport
+Nonce: -188109667
+Nonce plus one: -188109666
+192.168.2.28:57232 -> 192.168.2.23:43995
+
+00: F4 C9 AC 9E               . . . .        
+newBuffer [to its body; ye‚«^Ö]
+
+00: 0F 74 6F 20  69 74 73 20  . t o . i t s .
+08: 62 6F 64 79  3B 20 79 65  b o d y ; . y e
+10: 01 82 8D AB  5E D6 11     . . . . ^ . .  
+Bottom of Treasure loop
+opCode: 1
+	opParam [82]
+	opParam [8D]
+		nonce [AB]
+		nonce [5E]
+		nonce [D6]
+		nonce [11]
+entered connectnewport
+Port num: 36226
+Leaving connectnewport
+Nonce: -1419848175
+Nonce plus one: -1419848174
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: AB 5E D6 12               . ^ . .        
+newBuffer [a, even a h]
+
+00: 0B 61 2C 20  65 76 65 6E  . a , . e v e n
+08: 20 61 20 68  03 00 01 00  . a . h . . . .
+10: 00 00 00                  . . .          
+Bottom of Treasure loop
+opCode: 3
+	opParam [00]
+	opParam [01]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+Rebinding to 57232
+	Closing socket
+	Remaking the socket
+	Binding the socket to newLocalPort: 57232
+My current socket (within Bind) is :7
+Starting #1 read in Level 3 loop
+ Here's the junk: 0.0.0.0:57232 -> 192.168.2.23:36226
+Current local host is 0.0.0.0 and current local port is 37087
+Current remote host is hawaii.cs.byu.edu and current remote port is 33421
+My current socket is :7
+1 of 1 total recvfrom iterations required
+	 Recvfrom Sanity Check Value: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 61377
+		Result of summing ports is currently: 61377
+Out of recvfrom loop
+entered connectnewport
+Port num: 36226
+Leaving connectnewport
+Nonce: 61377
+Nonce plus one: 61378
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 00 00 EF C2               . . . .        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226
+
+00: 73 2E 62 7A               s . b z        
+newBuffer [„]
+
+00: 84                        .              
+Bottom of Treasure loop
+opCode: 105
+	opParam [2E]
+	opParam [63]
+		nonce [73]
+		nonce [2E]
+		nonce [62]
+		nonce [79]
+Nonce: 1932419705
+Nonce plus one: 1932419706
+192.168.2.28:57232 -> 192.168.2.23:36226

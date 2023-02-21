@@ -13,6 +13,12 @@ all: proxy
 proxy.o: proxy.c
 	$(CC) $(CFLAGS) -c proxy.c
 
+#sbuf.o: sbuf.c
+#	$(CC) $(CFLAGS) -c sbuf.c sbuf.h
+#
+#sbuf: sbuf.o
+#	$(CC) $(CFLAGS) sbuf.o -o sbuf $(LDFLAGS)
+
 proxy: proxy.o
 	$(CC) $(CFLAGS) proxy.o -o proxy $(LDFLAGS)
 

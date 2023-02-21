@@ -1,0 +1,13 @@
+192.168.2.28:56231 -> 192.168.2.23:36990
+opCode: 1
+	opParam [F6]
+	opParam [CA]
+		nonce [0A]
+		nonce [B0]
+		nonce [38]
+		nonce [17]
+entered connectnewport
+Leaving connectnewport
+Nonce: 179320855
+Nonce plus one: 179320856
+192.168.2.28:56231 -> 192.168.2.23:51958

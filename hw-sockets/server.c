@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	port = atoi(argv[portindex]);
-	sock_type = SOCK_DGRAM;
+	sock_type = SOCK_STREAM;
 
 
 	/* SECTION A - populate address structures */
@@ -85,29 +85,47 @@ int main(int argc, char *argv[]) {
 	/* SECTION C - interact with clients; receive and send messages */
 
 	/* Read datagrams and echo them back to sender */
+	
+	listen(sfd, 100);
 
 	for (;;) {
-		remote_addr_len = sizeof(struct sockaddr_storage);
-		nread = recvfrom(sfd, buf, BUF_SIZE, 0,
-				(struct sockaddr *) &remote_addr, &remote_addr_len);
-		if (nread == -1)
-			continue;   /* Ignore failed request */
-
-		char host[NI_MAXHOST], service[NI_MAXSERV];
-
-		s = getnameinfo((struct sockaddr *) &remote_addr,
-						remote_addr_len, host, NI_MAXHOST,
-						service, NI_MAXSERV, NI_NUMERICSERV | NI_NUMERICHOST);
 	
-		if (s == 0)
-			printf("Received %zd bytes from %s:%s\n",
-					nread, host, service);
-		else
-			fprintf(stderr, "getnameinfo: %s\n", gai_strerror(s));
+		remote_addr_len = sizeof(struct sockaddr_storage);
+		int acceptFD = accept(sfd, (struct sockaddr *) &remote_addr, &remote_addr_len);
 
-		if (sendto(sfd, buf, nread, 0,
-					(struct sockaddr *) &remote_addr,
-					remote_addr_len) < 0)
-			fprintf(stderr, "Error sending response\n");
+		sleep(5);
+
+		for (;;) {
+			remote_addr_len = sizeof(struct sockaddr_storage);
+
+			//printf("before recvfrom()\n"); fflush(stdout);
+			nread = recv(acceptFD, buf, BUF_SIZE, 0);
+			//sleep(5);
+			//printf("after recvfrom()\n"); fflush(stdout);
+
+			if (nread == 0) {
+				close(acceptFD);
+				break;
+			}
+
+			if (nread == -1) {
+				continue;   /* Ignore failed request */
+			}
+
+			char host[NI_MAXHOST], service[NI_MAXSERV];
+	
+			s = getnameinfo((struct sockaddr *) &remote_addr,
+							remote_addr_len, host, NI_MAXHOST,
+							service, NI_MAXSERV, NI_NUMERICSERV | NI_NUMERICHOST);
+		
+			if (s == 0)
+				printf("Received %zd bytes from %s:%s\n",
+						nread, host, service);
+			else
+				fprintf(stderr, "getnameinfo: %s\n", gai_strerror(s));
+	
+			if (send(acceptFD, buf, nread, 0) < 0)
+				fprintf(stderr, "Error sending response\n");
+		}
 	}
 }

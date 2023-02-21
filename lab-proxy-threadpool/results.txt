@@ -1,0 +1,65 @@
+Testing GET http://www.example.com/index.html HTTP/1.0
+Host: www.example.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept-Language: en-US,en;q=0.5
+
+
+	Temp5: [Host: www.example.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept-Language: en-US,en;q=0.5
+
+]METHOD: GET
+HOSTNAME: www.example.com
+PORT: 80
+HEADERS: 
+Host: www.example.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept-Language: en-US,en;q=0.5
+
+
+Testing GET http://www.example.com:8080/index.html?foo=1&bar=2 HTTP/1.0
+Host: www.example.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept-Language: en-US,en;q=0.5
+
+
+	Temp5: [Host: www.example.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept-Language: en-US,en;q=0.5
+
+]METHOD: GET
+HOSTNAME: www.example.com
+PORT: 8080
+HEADERS: 
+Host: www.example.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept-Language: en-US,en;q=0.5
+
+
+Testing GET http://localhost:1234/home.html HTTP/1.0
+Host: localhost:1234
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept-Language: en-US,en;q=0.5
+
+
+	Temp5: [Host: localhost:1234
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept-Language: en-US,en;q=0.5
+
+]METHOD: GET
+HOSTNAME: localhost
+PORT: 1234
+HEADERS: 
+Host: localhost:1234
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept-Language: en-US,en;q=0.5
+
+
+Testing GET http://www.example.com:8080/index.html HTTP/1.0
+
+	Temp5: []METHOD: GET
+HOSTNAME: www.example.com
+PORT: 8080
+HEADERS: 
+
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0

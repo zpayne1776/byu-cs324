@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) {
 	memset(&hints, 0, sizeof(struct addrinfo));
 	hints.ai_family = af;    /* Allow IPv4, IPv6, or both, depending on
 				    what was specified on the command line. */
-	hints.ai_socktype = SOCK_DGRAM; /* Datagram socket */
+	hints.ai_socktype = SOCK_STREAM; /* Datagram socket */
 	hints.ai_flags = 0;
 	hints.ai_protocol = 0;  /* Any protocol */
 
@@ -86,33 +86,56 @@ int main(int argc, char *argv[]) {
 
 	/* SECTION C - interact with server; send, receive, print messages */
 
+
+	//char* textStorage = (char*) malloc(4096);
+	char textStorage[4096];
+
+	int totalRead = 0;
+
+	//while (!feof(stdin)) {
+		int offset = fread(textStorage, sizeof(char), 4096, stdin);
+		totalRead += offset;
+	//}
+
+	memset(textStorage + totalRead,'\0', 4096 - totalRead);
+
+	int totalWritten = 0;
+	for (int i = 0; i < 1; i++) {
+		int written = write(sfd, textStorage, 4096);
+		totalWritten += written;
+		if (totalRead != totalWritten)
+			printf("Didn't print everything\n");
+	}
+
 	/* Send remaining command-line arguments as separate
 	   datagrams, and read responses from server */
 
-	for (j = hostindex + 2; j < argc; j++) {
-		len = strlen(argv[j]) + 1;
-		/* +1 for terminating null byte */
+	//sleep(30);
 
-		if (len + 1 > BUF_SIZE) {
-			fprintf(stderr,
-					"Ignoring long message in argument %d\n", j);
-			continue;
-		}
+	//for (j = hostindex + 2; j < argc; j++) {
+	//	len = strlen(argv[j]) + 1;
+	//	/* +1 for terminating null byte */
+	//
+	//	if (len + 1 > BUF_SIZE) {
+	//		fprintf(stderr,
+	//				"Ignoring long message in argument %d\n", j);
+	//		continue;
+	//	}
+	//
+	//	if (write(sfd, argv[j], len) != len) {
+	//		fprintf(stderr, "partial/failed write\n");
+	//		exit(EXIT_FAILURE);
+	//	}
 
-		if (write(sfd, argv[j], len) != len) {
-			fprintf(stderr, "partial/failed write\n");
-			exit(EXIT_FAILURE);
-		}
+		//nread = read(sfd, buf, BUF_SIZE);
+		//if (nread == -1) {
+		//	perror("read");
+		//	exit(EXIT_FAILURE);
+		//}
 
-		nread = read(sfd, buf, BUF_SIZE);
-		if (nread == -1) {
-			perror("read");
-			exit(EXIT_FAILURE);
-		}
+		//printf("Received %zd bytes: %s\n", nread, buf);
 
-		printf("Received %zd bytes: %s\n", nread, buf);
-
-	}
+	//}
 
 	exit(EXIT_SUCCESS);
 }

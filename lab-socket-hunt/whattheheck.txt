@@ -1,0 +1,370 @@
+192.168.2.28:64713 -> 192.168.2.23:36990
+opCode: 1
+	opParam [7E]
+	opParam [54]
+		nonce [89]
+		nonce [30]
+		nonce [7D]
+		nonce [96]
+entered connectnewport
+Leaving connectnewport
+Nonce: -1993310826
+Nonce plus one: -1993310825
+192.168.2.28:64713 -> 192.168.2.23:21630
+
+00: 89 30 7D 97               . 0 } .        
+newBuffer [lso shall roar out~õÓ£pÑ]
+
+00: 12 6C 73 6F  20 73 68 61  . l s o . s h a
+08: 6C 6C 20 72  6F 61 72 20  l l . r o a r .
+10: 6F 75 74 02  7E F5 D3 A3  o u t . ~ . . .
+18: 70 D1                     p .            
+Bottom of loop
+opCode: 2
+	opParam [7E]
+	opParam [F5]
+		nonce [D3]
+		nonce [A3]
+		nonce [70]
+		nonce [D1]
+entered connectnewport
+Leaving connectnewport
+Nonce: -744263471
+Nonce plus one: -744263470
+0.0.0.0:62846 -> 192.168.2.23:21630
+
+00: D3 A3 70 D2               . . p .        
+newBuffer [ of Zion, and utte ¡h¨]
+
+00: 12 20 6F 66  20 5A 69 6F  . . o f . Z i o
+08: 6E 2C 20 61  6E 64 20 75  n , . a n d . u
+10: 74 74 65 02  20 A1 68 A8  t t e . . . h .
+18: 0E 81                     . .            
+Bottom of loop
+opCode: 2
+	opParam [20]
+	opParam [A1]
+		nonce [68]
+		nonce [A8]
+		nonce [0E]
+		nonce [81]
+entered connectnewport
+Leaving connectnewport
+Nonce: 1755844225
+Nonce plus one: 1755844226
+0.0.0.0:41248 -> 192.168.2.23:21630
+
+00: 68 A8 0E 82               h . . .        
+newBuffer [r his voice­?ZFñ`]
+
+00: 0B 72 20 68  69 73 20 76  . r . h i s . v
+08: 6F 69 63 65  02 AD 3F 5A  o i c e . . ? Z
+10: 46 F1 60                  F . `          
+Bottom of loop
+opCode: 2
+	opParam [AD]
+	opParam [3F]
+		nonce [5A]
+		nonce [46]
+		nonce [F1]
+		nonce [60]
+entered connectnewport
+Leaving connectnewport
+Nonce: 1514598752
+Nonce plus one: 1514598753
+0.0.0.0:16301 -> 192.168.2.23:21630
+
+00: 5A 46 F1 61               Z F . a        
+newBuffer [ from Jerusalem; and]
+
+00: 14 20 66 72  6F 6D 20 4A  . . f r o m . J
+08: 65 72 75 73  61 6C 65 6D  e r u s a l e m
+10: 3B 20 61 6E  64 03 00 05  ; . a n d . . .
+18: 00 00 00 00               . . . .        
+Bottom of loop
+opCode: 3
+	opParam [00]
+	opParam [05]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+Starting #0 read in Level 3 loop1 of 5 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 52112
+		Result of summing ports is currently: 37067
+Starting #1 read in Level 3 loop2 of 5 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 41425
+		Result of summing ports is currently: 90732
+Starting #2 read in Level 3 loop3 of 5 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 26765
+		Result of summing ports is currently: 126932
+Starting #3 read in Level 3 loop4 of 5 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 49104
+		Result of summing ports is currently: 180371
+Starting #4 read in Level 3 loop5 of 5 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 30381
+		Result of summing ports is currently: 224777
+Out of recvfrom loop
+entered connectnewport
+Leaving connectnewport
+Nonce: 224777
+Nonce plus one: 224778
+0.0.0.0:16301 -> 192.168.2.23:21630
+
+00: 00 03 6E 0A               . . n .        
+newBuffer [ the heavens andg®ëP¾]
+
+00: 10 20 74 68  65 20 68 65  . . t h e . h e
+08: 61 76 65 6E  73 20 61 6E  a v e n s . a n
+10: 64 02 67 19  AE EB 50 BE  d . g . . . P .
+Bottom of loop
+opCode: 2
+	opParam [67]
+	opParam [19]
+		nonce [AE]
+		nonce [EB]
+		nonce [50]
+		nonce [BE]
+entered connectnewport
+Leaving connectnewport
+Nonce: -1360310082
+Nonce plus one: -1360310081
+0.0.0.0:6503 -> 192.168.2.23:21630
+
+00: AE EB 50 BF               . . P .        
+newBuffer [ the earth shalK¡dU0<]
+
+00: 0F 20 74 68  65 20 65 61  . . t h e . e a
+08: 72 74 68 20  73 68 61 6C  r t h . s h a l
+10: 01 4B A1 64  55 30 3C     . K . d U 0 <  
+Bottom of loop
+opCode: 1
+	opParam [4B]
+	opParam [A1]
+		nonce [64]
+		nonce [55]
+		nonce [30]
+		nonce [3C]
+entered connectnewport
+Leaving connectnewport
+Nonce: 1683304508
+Nonce plus one: 1683304509
+0.0.0.0:6503 -> 192.168.2.23:41291
+
+00: 64 55 30 3D               d U 0 =        
+newBuffer [l shake: but À5­À>]
+
+00: 0D 6C 20 73  68 61 6B 65  . l . s h a k e
+08: 3A 20 62 75  74 20 01 C0  : . b u t . . .
+10: 35 AD 14 C0  3E           5 . . . >      
+Bottom of loop
+opCode: 1
+	opParam [C0]
+	opParam [35]
+		nonce [AD]
+		nonce [14]
+		nonce [C0]
+		nonce [3E]
+entered connectnewport
+Leaving connectnewport
+Nonce: -1391148994
+Nonce plus one: -1391148993
+0.0.0.0:6503 -> 192.168.2.23:13760
+
+00: AD 14 C0 3F               . . . ?        
+newBuffer [the Lord will be]
+
+00: 10 74 68 65  20 4C 6F 72  . t h e . L o r
+08: 64 20 77 69  6C 6C 20 62  d . w i l l . b
+10: 65 03 00 03  00 00 00 00  e . . . . . . .
+Bottom of loop
+opCode: 3
+	opParam [00]
+	opParam [03]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+Starting #0 read in Level 3 loop1 of 3 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 45279
+		Result of summing ports is currently: 57264
+Starting #1 read in Level 3 loop2 of 3 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 65377
+		Result of summing ports is currently: 82351
+Starting #2 read in Level 3 loop3 of 3 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 10316
+		Result of summing ports is currently: 101847
+Out of recvfrom loop
+entered connectnewport
+Leaving connectnewport
+Nonce: 101847
+Nonce plus one: 101848
+0.0.0.0:6503 -> 192.168.2.23:13760
+
+00: 00 01 8D D8               . . . .        
+newBuffer [ the hope of his peo	pE6]
+
+00: 14 20 74 68  65 20 68 6F  . . t h e . h o
+08: 70 65 20 6F  66 20 68 69  p e . o f . h i
+10: 73 20 70 65  6F 01 15 09  s . p e o . . .
+18: 02 70 45 36               . p E 6        
+Bottom of loop
+opCode: 1
+	opParam [15]
+	opParam [09]
+		nonce [02]
+		nonce [70]
+		nonce [45]
+		nonce [36]
+entered connectnewport
+Leaving connectnewport
+Nonce: 40912182
+Nonce plus one: 40912183
+0.0.0.0:6503 -> 192.168.2.23:2325
+
+00: 02 70 45 37               . p E 7        
+newBuffer [
+ple, and t]
+
+00: 0A 70 6C 65  2C 20 61 6E  . p l e , . a n
+08: 64 20 74 03  00 03 00 00  d . t . . . . .
+10: 00 00                     . .            
+Bottom of loop
+opCode: 3
+	opParam [00]
+	opParam [03]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+Starting #0 read in Level 3 loop1 of 3 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 16612
+		Result of summing ports is currently: 58432
+Starting #1 read in Level 3 loop2 of 3 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 6837
+		Result of summing ports is currently: 104794
+Starting #2 read in Level 3 loop3 of 3 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 48770
+		Result of summing ports is currently: 138264
+Out of recvfrom loop
+entered connectnewport
+Leaving connectnewport
+Nonce: 138264
+Nonce plus one: 138265
+0.0.0.0:6503 -> 192.168.2.23:2325
+
+00: 00 02 1C 19               . . . .        
+newBuffer [he strength of ]
+
+00: 0F 68 65 20  73 74 72 65  . h e . s t r e
+08: 6E 67 74 68  20 6F 66 20  n g t h . o f .
+10: 03 00 01 00  00 00 00     . . . . . . .  
+Bottom of loop
+opCode: 3
+	opParam [00]
+	opParam [01]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+		nonce [00]
+Starting #0 read in Level 3 loop1 of 1 total recvfrom iterations required
+	Message received size: 0
+	IN AF_INET - casting sockaddr_storage as sockaddr_in
+		The Port to be added is 19689
+		Result of summing ports is currently: 59724
+Out of recvfrom loop
+entered connectnewport
+Leaving connectnewport
+Nonce: 59724
+Nonce plus one: 59725
+0.0.0.0:6503 -> 192.168.2.23:2325
+
+00: 00 00 E9 4D               . . . M        
+newBuffer [the children of I#xCäY]
+
+00: 11 74 68 65  20 63 68 69  . t h e . c h i
+08: 6C 64 72 65  6E 20 6F 66  l d r e n . o f
+10: 20 49 01 23  78 12 43 E4  . I . # x . C .
+18: 59                        Y              
+Bottom of loop
+opCode: 1
+	opParam [23]
+	opParam [78]
+		nonce [12]
+		nonce [43]
+		nonce [E4]
+		nonce [59]
+entered connectnewport
+Leaving connectnewport
+Nonce: 306439257
+Nonce plus one: 306439258
+0.0.0.0:6503 -> 192.168.2.23:30755
+
+00: 12 43 E4 5A               . C . Z        
+newBuffer [srael. JoelÈ¸#ñf]
+
+00: 0B 73 72 61  65 6C 2E 20  . s r a e l . .
+08: 4A 6F 65 6C  01 C8 B8 23  J o e l . . . #
+10: F1 1F 66                  . . f          
+Bottom of loop
+opCode: 1
+	opParam [C8]
+	opParam [B8]
+		nonce [23]
+		nonce [F1]
+		nonce [1F]
+		nonce [66]
+entered connectnewport
+Leaving connectnewport
+Nonce: 603004774
+Nonce plus one: 603004775
+0.0.0.0:6503 -> 192.168.2.23:47304
+
+00: 23 F1 1F 67               # . . g        
+newBuffer [ 3:16R¿÷Øð]
+
+00: 05 20 33 3A  31 36 01 52  . . 3 : 1 6 . R
+08: BF F7 0F D8  F0           . . . . .      
+Bottom of loop
+opCode: 1
+	opParam [52]
+	opParam [BF]
+		nonce [F7]
+		nonce [0F]
+		nonce [D8]
+		nonce [F0]
+entered connectnewport
+Leaving connectnewport
+Nonce: -149956368
+Nonce plus one: -149956367
+0.0.0.0:6503 -> 192.168.2.23:48978
+
+00: F7 0F D8 F1               . . . .        
+newBuffer []
+
+00: 00                        .              
+Bottom of loop
+Out of main loop
+The Lord also shall roar out of Zion, and utter his voice from Jerusalem; and the heavens and the earth shall shake: but the Lord will be the hope of his people, and the strength of the children of Israel. Joel 3:16
