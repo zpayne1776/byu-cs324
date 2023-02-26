@@ -109,6 +109,7 @@ void handle_client(int fd);
 void *startClientThreads(void *vargp);
 void wipeStrings(char *, char *, char *, char *, char *, char *, char *, char *);
 void wipeBuffer(char *);
+void wipeBuffer2(char *);
 void createRequest(char *, char *, char *, char *, char *);
 
 
@@ -126,6 +127,7 @@ int main(int argc, char *argv[])
         socklen_t addrLength = sizeof(address);
         int client;
 
+        printf("before accept\n");fflush(stdout);
         client = accept(sfd,&address, &addrLength);
 
         if (client == -1) {
@@ -134,8 +136,24 @@ int main(int argc, char *argv[])
             exit(EXIT_FAILURE);
         }
 
+        printf("after accept\n");fflush(stdout);
         sbuf_insert(&sbuf, client); /* Insert connfd in buffer */
+
+
+//        if ((client = accept(sfd, &address, &addrLength)) != -1) {
+//            //pthread_create(&tid, NULL, startClientThread, client);
+//            //handle_client(client);
+//            printf("JUST BEFORE THE INSERT");
+//            fflush(stdout);
+//            sbuf_insert(&sbuf, client);
+//            printf("JUST AFTER THE INSERT");
+//            fflush(stdout);
+//        }
     }
+
+	//test_parser();
+	//printf("%s\n", user_agent_hdr);
+	//return 0;
 }
 
 int open_sfd(char *port) {
@@ -210,6 +228,7 @@ void *startClientThreads(void *vargp) {
     }
 }
 
+
 void handle_client(int fd) {
     char method[100];
     char hostname[100];
@@ -217,9 +236,13 @@ void handle_client(int fd) {
     char path[100];
     char headers[MAX_CACHE_SIZE];
     char buffer[MAX_BUFFER_SIZE];
+    char buffer2[MAX_BUFFER_SIZE];
     char wholeArg[MAX_CACHE_SIZE];
     char newRequest[MAX_CACHE_SIZE];
     char serverResponse[MAX_CACHE_SIZE];
+
+    //printf("Starting first Read Loop!");
+    //fflush(stdout);
 
     wipeStrings(method, hostname, port, path, headers, wholeArg, newRequest, serverResponse);
     wipeBuffer(buffer);
@@ -229,21 +252,58 @@ void handle_client(int fd) {
         wipeBuffer(buffer);
     }
 
+    //printf("Just left Read Loop!");
+    //fflush(stdout);
+
     if (parse_request(wholeArg, method, hostname, port, path, headers)) {
+        printf("METHOD: %s\n", method);
+        printf("HOSTNAME: %s\n", hostname);
+        printf("PORT: %s\n", port);
+        printf("HEADERS: %s\n", headers);
+        fflush(stdout);
+
         createRequest(newRequest, method, hostname, port, path);
+        printf("%s", newRequest);
+        fflush(stdout);
 
         int serverFD = openRemoteSFD(hostname, port);
         write(serverFD, newRequest, strlen(newRequest));
 
-        wipeBuffer(buffer);
+        wipeBuffer2(buffer2);
+        //int i = 0;
+
+//        printf("PrintBytes:\n");
+//        fflush(stdout);
+//        print_bytes((unsigned char *) serverResponse, MAX_CACHE_SIZE);
+//        fflush(stdout);
+//        printf("EndPrintBytes");
+//        fflush(stdout);
+
+
         int charsReceived = 0;
         int totalChars = 0;
-        while((charsReceived = read(serverFD, buffer, MAX_BUFFER_SIZE)) != 0) {
-            memcpy(serverResponse + totalChars, buffer, charsReceived);
-            wipeBuffer(buffer);
+        int i = 0;
+        while((charsReceived = read(serverFD, buffer2, MAX_BUFFER_SIZE)) != 0) {
+//            printf("SECTION %d:\n[[[[  %s  ]]]]", i, buffer2);
+//            fflush(stdout);
+
+            print_bytes((unsigned char *) buffer2, charsReceived);
+            fflush(stdout);
+
+            //strncat(serverResponse, buffer2, charsReceived);
+            memcpy(serverResponse + totalChars, buffer2, charsReceived);
+
+            wipeBuffer2(buffer2);
             totalChars += charsReceived;
+            printf("SECTION %d CHARS RECEIVED: %d\n", i, charsReceived);
+            i++;
         }
+        printf("TOTAL CHARACTERS RECEIVED: %d\n", totalChars);
+
         close(serverFD);
+//        printf("%s", serverResponse);
+//        fflush(stdout);
+
         write(fd, serverResponse, totalChars);
         close(fd);
 
@@ -291,23 +351,41 @@ int parse_request(char *request, char *method,
 		return 0;
 	}
 
+	//printf("FULL REQUEST:\n%s", request);	
+
 	char space[] = " ";
 	char slash[] = "/";
 	char colon[] = ":";
 	char newLine[] = "\n";
 
 	int length = strcspn(request, space);
+	//char temp1[length];
 	method = strncpy(method, request, length);
 
+	//int hostStart = length+8;
+
 	char *temp2 = strstr(&strstr(request, slash)[1], slash);
+	//printf("\tTemp 2: %s\n", temp2);
+	//fflush(stdout);
 	char temp3[72];
 	memset(temp3, 0, 72);
+	//printf("\tSetting temp3\n");
+	//fflush(stdout);
 	strncpy(temp3, &temp2[1], strcspn(&temp2[1], slash));
+	//printf("\tSetting hostname\n)");
+	//fflush(stdout);
 	hostname = strncpy(hostname, temp3, strcspn(temp3, colon));
-
+	//printf("\tHostname: [%s]\n", hostname);
+	//fflush(stdout);
 	if (strstr(temp3, colon) != NULL) {
+		//printf("\tIn port check\n");
+		//fflush(stdout);
 		port = strncpy(port, &strstr(temp3, colon)[1], strlen(&strstr(temp3, colon)[1]));
+		//printf("\tReturning from port check\n");
+		//fflush(stdout);
 	} else {
+		//printf("\tSetting default port\n");
+		//fflush(stdout);
 		port = strcpy(port, "80");
 	}
 
@@ -315,6 +393,8 @@ int parse_request(char *request, char *method,
 	path = strncpy(path, &temp4[1], strcspn(temp4, space));
 
  	char *temp5 = strstr(temp4, newLine);
+	//printf("\tTemp5: [%s]", &temp5[1]);
+	//fflush(stdout);
 	headers = strcpy(headers, &temp5[1]);
 
 	return 1;
