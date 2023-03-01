@@ -42,15 +42,23 @@ typedef struct {
 int all_headers_received(char *request);
 int parse_request(char *request, char *method, char *hostname, char *port, char *path, char *headers);
 void test_parser();
+<<<<<<< HEAD
 void print_bytes(unsigned char *bytes, int byteslen);
 int open_sfd(char *port);
 int openRemoteSFD(char *hostname, char *port);
 void handle_new_clients();
+=======
+void print_bytes(unsigned char *, int);
+int open_sfd(char *);
+int openRemoteSFD(char *, char *);
+void handle_new_clients(request_info* newClient);
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
 void handle_client(request_info* clientRequest);
 void addToClientList(request_info* requestToAdd);
 request_info* findClient(int fd);
 int findClientIndex(int fd);
 void removeFromClientList(int fd);
+<<<<<<< HEAD
 void removeClient(int clientFD, int serverFD);
 void deregisterFD(int fd);
 void wipeStrings(char *method, char *hostname, char *port, char *path, char *headers);
@@ -61,6 +69,18 @@ static const char *user_agent_hdr = "User-Agent: Mozilla/5.0 (Macintosh; Intel M
 request_info **clientList;
 int capacity;
 int size;
+=======
+void removeClient(int fd);
+void deregisterFD(int fd);
+void wipeStrings(char *, char *, char *, char *, char *);
+void wipeBuffer(char *);
+void createRequest(char *, char *, char *, char *, char *);
+
+static const char *user_agent_hdr = "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0";
+request_info *clientList;
+int* capacity;
+int* size;
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
 int sfd;
 
 int epollFD;
@@ -68,16 +88,29 @@ struct epoll_event ev, events[MAX_EVENTS];
 
 int main(int argc, char *argv[])
 {
+<<<<<<< HEAD
+=======
+    //request_info* myRequests;
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
     sfd = open_sfd(argv[1]);
     epollFD = epoll_create1(0);
     ev.events = EPOLLIN | EPOLLET;
     ev.data.fd = sfd;
+<<<<<<< HEAD
     capacity = 5;
     size = 0;
     clientList = calloc(capacity, sizeof(request_info*));
 
     if (epoll_ctl(epollFD, EPOLL_CTL_ADD, sfd, &ev) == -1) {
         perror("epoll_ctl - Adding listener FD\n");
+=======
+    *capacity = 10;
+    *size = 0;
+    clientList = calloc(*capacity, sizeof(request_info));
+
+    if (epoll_ctl(epollFD, EPOLL_CTL_ADD, sfd, &ev) == -1) {
+        perror("epoll_ctl - Adding listener FD");
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
         exit(EXIT_FAILURE);
     }
 
@@ -98,9 +131,15 @@ int main(int argc, char *argv[])
             for (int i = 0; i < check; i++) {
                 // Check if the event is for the listening socket
                 if (events[i].data.fd == sfd) {
+<<<<<<< HEAD
                     handle_new_clients();
                 } else if (findClientIndex(events[i].data.fd) != -1) {
                     handle_client(findClient(events[i].data.fd));
+=======
+                    request_info* newClient = calloc(1, sizeof(request_info));
+                    addToClientList(newClient);
+                    handle_new_clients(newClient);
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
                 }
             }
         }
@@ -113,6 +152,7 @@ int main(int argc, char *argv[])
 
 
 void addToClientList(request_info* clientToAdd) {
+<<<<<<< HEAD
     if (size == capacity) {
         capacity *= 2;
         clientList = realloc(clientList, (sizeof(request_info*) * capacity));
@@ -131,11 +171,30 @@ request_info * findClient(int fd) {
         }
     }
     printf("Failed to find Request.\n");
+=======
+    if (*size == *capacity) {
+        *capacity *= 2;
+        clientList = realloc(clientList, sizeof(request_info) * *capacity);
+    }
+    clientList[*size++] = *clientToAdd;
+}
+
+request_info* findClient(int fd) {
+    for (int i = 0; i < *size; i++) {
+        if (clientList[i].clientFD == fd) {
+            printf("Successfully found Client!");
+            fflush(stdout);
+            return &clientList[i];
+        }
+    }
+    printf("Failed to find Client.");
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
     fflush(stdout);
     return NULL;
 }
 
 int findClientIndex(int fd) {
+<<<<<<< HEAD
     printf("### SEARCHING FOR REQUEST WITH SOME FD [%d]\n", fd);
     fflush(stdout);
     for (int i = 0; i < size; i++) {
@@ -143,15 +202,25 @@ int findClientIndex(int fd) {
         fflush(stdout);
         if (clientList[i]->clientFD == fd || clientList[i]->serverFD == fd) {
             printf("Successfully found Client/Server index!\n");
+=======
+    for (int i = 0; i < *size; i++) {
+        if (clientList[i].clientFD == fd) {
+            printf("Successfully found Client index!");
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
             fflush(stdout);
             return i;
         }
     }
+<<<<<<< HEAD
     printf("Failed to find Request index.\n");
+=======
+    printf("Failed to find Client index.");
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
     fflush(stdout);
     return -1;
 }
 
+<<<<<<< HEAD
 void removeClient(int clientFD, int serverFD) {
     deregisterFD(clientFD);
     deregisterFD(serverFD);
@@ -167,12 +236,25 @@ void deregisterFD(int fd) {
         exit(EXIT_FAILURE);
     }
     close(fd);
+=======
+void removeClient(int fd) {
+    deregisterFD(fd);
+    removeFromClientList(fd);
+}
+
+void deregisterFD(int fd) {
+    if (epoll_ctl(epollFD, EPOLL_CTL_DEL, sfd, &ev) == -1) {
+        perror("epoll_ctl - Removing client FD");
+        exit(EXIT_FAILURE);
+    }
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
 }
 
 void removeFromClientList(int fd) {
     int index = findClientIndex(fd);
 
     if (index != -1) {
+<<<<<<< HEAD
         free(findClient(fd));
         if (index < size - 1) {
             for (int i = index; i < size - 1; i++) {
@@ -185,6 +267,15 @@ void removeFromClientList(int fd) {
         size--;
         printf("Successfully removed Client from Client List!\n");
         fflush(stdout);
+=======
+        printf("Successfully removed Client from Client List!");
+        fflush(stdout);
+        for (int i = index; i < *size - 1; i++) {
+            clientList[i] = clientList[i + 1];
+        }
+        //memset(clientList[*size - 1], 0, sizeof(request_info));
+        *size = *size - 1;
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
     }
 }
 
@@ -195,8 +286,11 @@ void handle_client(request_info* clientRequest) {
     fflush(stdout);
 
     switch(clientRequest->state) {
+<<<<<<< HEAD
 
 //#################################################### CASE 1
+=======
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
         case READ_REQUEST:
             char method[100];
             char hostname[100];
@@ -207,26 +301,41 @@ void handle_client(request_info* clientRequest) {
 
             wipeStrings(method, hostname, port, path, headers);
             wipeBuffer(buffer);
+<<<<<<< HEAD
             while (!all_headers_received(clientRequest->clientRequest)) {
+=======
+            while(!all_headers_received(clientRequest->clientRequest)) {
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
                 int stringLength = read(clientRequest->clientFD, buffer, MAX_BUFFER_SIZE);
                 if (stringLength < 0) {
                     if ((errno == EAGAIN) || (errno == EWOULDBLOCK)) {
                         return;
                     } else {
+<<<<<<< HEAD
                         fprintf(stderr,
                                 "=======================================================\nFAILED AT CLIENT READ: %s\n===============================================================\n",
                                 strerror(errno));
                         fflush(stderr);
                         removeClient(clientRequest->clientFD, clientRequest->serverFD);
+=======
+                        fprintf(stderr, "=======================================================\nepoll_wait failed with error: %s\n===============================================================\n",
+                                strerror(errno));
+                        fflush(stderr);
+                        removeClient(clientRequest->clientFD);
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
                         return;
                     }
                 }
                 strncat(clientRequest->clientRequest, buffer, stringLength);
+<<<<<<< HEAD
                 clientRequest->bytesFromClient += stringLength;
+=======
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
                 wipeBuffer(buffer);
             }
 
             if (parse_request(clientRequest->clientRequest, method, hostname, port, path, headers)) {
+<<<<<<< HEAD
                 printf("SUCCESSFULLY PARSED REQUEST!\n");
                 fflush(stdout);
                 clientRequest->bytesForServer = createRequest(clientRequest->serverRequest, method, hostname, port,
@@ -245,6 +354,22 @@ void handle_client(request_info* clientRequest) {
                 }
             } else {
                 printf("THIS IS WHERE THE SCRIPT FAILED TO PARSE THE REQUEST. NOT GOOD.\n");
+=======
+                printf("SUCCESSFULLY PARSED REQUEST!");
+                fflush(stdout);
+                createRequest(clientRequest->serverRequest, method, hostname, port, path);
+                clientRequest->serverFD = openRemoteSFD(hostname, port);
+
+                struct epoll_event localEV;
+                localEV.events = EPOLLIN | EPOLLET;
+                localEV.data.fd = clientRequest->serverFD;
+                if (epoll_ctl(epollFD, EPOLL_CTL_ADD, clientRequest->serverFD, &localEV) == -1) {
+                    perror("epoll_ctl - Adding client FD");
+                    exit(EXIT_FAILURE);
+                }
+            } else {
+                printf("THIS IS WHERE THE SCRIPT FAILED TO PARSE THE REQUEST. NOT GOOD.");
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
                 fflush(stdout);
             }
             clientRequest->state = SEND_REQUEST;
@@ -378,10 +503,16 @@ void wipeBuffer(char *buffer) {
     memset(buffer, '\0', MAX_BUFFER_SIZE);
 }
 
+<<<<<<< HEAD
 void handle_new_clients() {
 
     while(1) {
         request_info *newClient = calloc(1, sizeof(request_info));
+=======
+void handle_new_clients(request_info* newClient) {
+
+    while(1) {
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
         struct epoll_event localEV;
         struct sockaddr address;
         socklen_t addrLength = sizeof(address);
@@ -393,6 +524,7 @@ void handle_new_clients() {
             break;
         }
 
+<<<<<<< HEAD
         newClient->clientFD = newFD;
 
         int flags = fcntl(newClient->clientFD, F_GETFL, 0);
@@ -405,6 +537,18 @@ void handle_new_clients() {
         }
         newClient->state = READ_REQUEST;
         printf("============== NEW FD: %d\n", newClient->clientFD);
+=======
+        int flags = fcntl(sfd, F_GETFL, 0);
+        fcntl(sfd, F_SETFL, flags | O_NONBLOCK);
+        localEV.events = EPOLLIN | EPOLLET;
+        localEV.data.fd = newClient->clientFD; 
+        if (epoll_ctl(epollFD, EPOLL_CTL_ADD, newClient->clientFD, &localEV) == -1) {
+            perror("epoll_ctl - Adding client FD");
+            exit(EXIT_FAILURE);
+        }
+        newClient->state = READ_REQUEST;
+        printf("============== NEW FD: %d", newClient->clientFD);
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
         fflush(stdout);
         addToClientList(newClient);
     }
@@ -417,6 +561,7 @@ void handle_new_clients() {
 
 }
 
+<<<<<<< HEAD
 int createRequest(char *newRequest, char *method, char *hostname, char *port, char *path) {
     int length = 0;
     strcat(newRequest, method);
@@ -447,6 +592,25 @@ int createRequest(char *newRequest, char *method, char *hostname, char *port, ch
     strcat(newRequest, "Proxy-Connection: close\r\n\r\n\0");
     length += strlen("Proxy-Connection: close\r\n\r\n\0");
     return length;
+=======
+void createRequest(char *newRequest, char *method,
+                   char *hostname, char *port, char *path) {
+    strcat(newRequest, method);
+    strcat(newRequest, " /");
+    strcat(newRequest, path);
+    strcat(newRequest, "HTTP/1.0\r\n");
+    strcat(newRequest, "Host: ");
+    strcat(newRequest, hostname);
+    if (strcmp(port,"80")) {
+        strcat(newRequest, ":");
+        strcat(newRequest, port);
+    }
+    strcat(newRequest, "\r\n");
+    strcat(newRequest, user_agent_hdr);
+    strcat(newRequest, "\r\n");
+    strcat(newRequest, "Connection: close\r\n");
+    strcat(newRequest, "Proxy-Connection: close\r\n\r\n\0");
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
 }
 
 int openRemoteSFD(char *hostname, char *port) {
@@ -472,6 +636,7 @@ int openRemoteSFD(char *hostname, char *port) {
         }
 
         if (connect (serverFD, rp->ai_addr, rp->ai_addrlen) != -1) {
+<<<<<<< HEAD
 
             int flags = fcntl(serverFD, F_GETFL, 0);
             if (flags == -1) {
@@ -479,6 +644,8 @@ int openRemoteSFD(char *hostname, char *port) {
             }
             fcntl(serverFD, F_SETFL, flags | O_NONBLOCK);
             
+=======
+>>>>>>> f2c9dd9bb4e7c19085db83c65e71a46e131ff8d8
             break;
         }
 
