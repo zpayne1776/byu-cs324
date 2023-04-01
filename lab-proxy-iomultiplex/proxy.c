@@ -195,9 +195,7 @@ void handle_client(request_info* clientRequest) {
     fflush(stdout);
 
     switch(clientRequest->state) {
-
-//#################################################### CASE 1
-        case READ_REQUEST:
+        case READ_REQUEST: ; //#################################################### CASE 1
             char method[100];
             char hostname[100];
             char port[100];
@@ -251,7 +249,7 @@ void handle_client(request_info* clientRequest) {
             break;
 
 //#################################################### CASE 2
-        case SEND_REQUEST:
+        case SEND_REQUEST:  ;
             int numSent = 0;
 
             while (numSent < clientRequest->bytesForServer) {
