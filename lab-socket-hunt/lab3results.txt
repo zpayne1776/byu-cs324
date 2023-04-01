@@ -1,0 +1,31 @@
+Testing level 0:
+    Seed  7719: PASSED
+    Seed 33833: PASSED
+    Seed 20468: PASSED
+    Seed 19789: PASSED
+    Seed 59455: PASSED
+Testing level 1:
+    Seed  7719: PASSED
+    Seed 33833: PASSED
+    Seed 20468: PASSED
+    Seed 19789: PASSED
+    Seed 59455: PASSED
+Testing level 2:
+    Seed  7719: PASSED
+    Seed 33833: PASSED
+    Seed 20468: PASSED
+    Seed 19789: PASSED
+    Seed 59455: PASSED
+Testing level 3:
+    Seed  7719: PASSED
+    Seed 33833: PASSED
+    Seed 20468: PASSED
+    Seed 19789: PASSED
+    Seed 59455: PASSED
+Testing level 4:
+    Seed  7719: PASSED
+    Seed 33833: PASSED
+    Seed 20468: PASSED
+    Seed 19789: PASSED
+    Seed 59455: PASSED
+Score: 100/100

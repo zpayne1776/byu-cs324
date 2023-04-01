@@ -1,0 +1,26 @@
+TEST GROUP 1 (50 points) ***
+    Basic Proxy Test
+      Requesting files of several types through proxy.
+      Result: 5/5
+    Non-local Proxy Test
+      Issuing a request to the proxy for a non-local URL.
+      Result: 2/2
+    Slow Request Test
+      Issuing a request to the proxy, iteratively, using several calls to send().
+      Result: 1/1
+    Slow Response Test
+      Issuing a request to the proxy for a file that the server sends iteratively, over several calls to send().
+      Result: 1/1
+    Slow Request/Response Test
+      Issuing a request to the proxy, iteratively, for a file that the server also sends iteratively.
+      Result: 1/1
+    Subtotal: 50/50
+TEST GROUP 2 (45 points) ***
+    Basic Concurrency Test
+      Issuing a request to the proxy, while it is busy with another request.
+      Result: 1/1
+    Extended Concurrency Test
+      Issuing 5 fast requests to the proxy, while it is busy handling 5 slow requests that were issued first.
+      Result: 5/5; Concurrency model: success
+    Subtotal: 45/45
+Total: 95/95 (100.00%)
